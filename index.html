@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mãe de Menina 💕 — Promoções Todo Dia no WhatsApp</title>
-<meta name="description" content="Entre no grupo gratuito e receba promoções todo dia de roupinhas, brinquedos e acessórios para a sua menina.">
+<meta name="description" content="Entre no grupo gratuito e receba promoções todo dia de roupinhas, brinquedos e acessórios para meninas de 0 a 5 anos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--pink:#F472B6;--pink-light:#FDF2F8;--pink-dark:#BE185D;--pink-mid:#FBCFE8;--pink-soft:#FCE7F3;--text:#1F1F1F;--text-2:#6B7280;--white:#fff;--max:860px}
+:root{--pink:#F472B6;--pink-light:#FDF2F8;--pink-dark:#BE185D;--pink-mid:#FBCFE8;--pink-soft:#FCE7F3;--text:#1F1F1F;--text-2:#6B7280;--white:#fff;--max:860px;--wa:#25D366;--wa-dark:#1DA851;--wa-light:#E9F9EF}
 html{scroll-behavior:smooth}body{font-family:'Inter',sans-serif;background:var(--white);color:var(--text);overflow-x:hidden}
 @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
@@ -23,8 +23,11 @@ html{scroll-behavior:smooth}body{font-family:'Inter',sans-serif;background:var(-
 nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--pink-mid);padding:0 1.5rem}
 .nav-inner{max-width:var(--max);margin:0 auto;height:54px;display:flex;align-items:center;justify-content:space-between}
 .nav-logo{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--pink-dark);animation:heartbeat 2.5s ease-in-out infinite}
-.nav-btn{background:var(--pink-dark);color:#fff;padding:8px 18px;border-radius:10px;font-size:.82rem;font-weight:600;text-decoration:none;transition:all .2s}
-.nav-btn:hover{background:#9D174D;transform:translateY(-1px)}
+.nav-btn{display:inline-flex;align-items:center;gap:6px;background:var(--wa);color:#fff;padding:8px 16px;border-radius:10px;font-size:.82rem;font-weight:600;text-decoration:none;transition:background .2s,transform .15s;box-shadow:0 2px 10px rgba(37,211,102,.25)}
+.nav-btn svg{width:14px;height:14px;fill:#fff;flex-shrink:0}
+.nav-btn:hover{background:var(--wa-dark);transform:translateY(-1px)}
+.nav-btn:active{transform:translateY(0) scale(.97)}
+.nav-btn:focus-visible{outline:2px solid var(--wa-dark);outline-offset:2px}
 .hero{background:linear-gradient(135deg,#FDF2F8,#FCE7F3,#FBE2F0,#FCE7F3);background-size:300% 300%;animation:gradMove 8s ease infinite;overflow:hidden}
 .hero-inner{max-width:var(--max);margin:0 auto;padding:3.5rem 1.5rem 2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}
 .hero-content{animation:fadeUp .7s ease both}
@@ -33,10 +36,15 @@ nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);backdrop-
 .hero h1 span{color:var(--pink-dark)}
 .hero p{color:var(--text-2);font-size:.95rem;line-height:1.75;margin-bottom:1.8rem}
 .hero-buttons{display:flex;flex-wrap:wrap;gap:10px}
-.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--pink-dark);color:#fff;padding:13px 24px;border-radius:12px;font-size:.9rem;font-weight:600;text-decoration:none;transition:all .2s}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(190,24,93,.3);background:#9D174D}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--wa);color:#fff;padding:13px 24px;border-radius:12px;font-size:.9rem;font-weight:600;text-decoration:none;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 6px 20px rgba(37,211,102,.3)}
+.btn-primary svg{width:17px;height:17px;fill:#fff;flex-shrink:0}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(37,211,102,.4);background:var(--wa-dark)}
+.btn-primary:active{transform:translateY(0) scale(.97)}
+.btn-primary:focus-visible{outline:2px solid var(--wa-dark);outline-offset:3px}
 .btn-secondary{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--pink-dark);padding:12px 20px;border-radius:12px;font-size:.88rem;font-weight:500;text-decoration:none;border:1.5px solid var(--pink-mid);transition:all .2s}
 .btn-secondary:hover{background:var(--pink-soft)}
+.btn-secondary:active{transform:scale(.97)}
+.btn-secondary:focus-visible{outline:2px solid var(--pink-dark);outline-offset:2px}
 .hero-visual{position:relative;display:flex;align-items:center;justify-content:center;animation:fadeUp .9s ease both}
 .hero-phone{width:180px;background:#fff;border-radius:30px;box-shadow:0 24px 60px rgba(244,114,182,.25);padding:14px;border:1px solid var(--pink-mid);animation:float 4s ease-in-out infinite}
 .phone-notch{width:60px;height:6px;background:#E5E7EB;border-radius:99px;margin:0 auto 12px}
@@ -65,6 +73,7 @@ nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);backdrop-
 .prod-card{background:#fff;border:1px solid var(--pink-mid);border-radius:18px;overflow:hidden;transition:transform .25s,box-shadow .25s;text-decoration:none;color:inherit;display:block;animation:fadeUp .6s ease both}
 .prod-card:nth-child(1){animation-delay:.05s}.prod-card:nth-child(2){animation-delay:.1s}.prod-card:nth-child(3){animation-delay:.15s}
 .prod-card:nth-child(4){animation-delay:.2s}.prod-card:nth-child(5){animation-delay:.25s}.prod-card:nth-child(6){animation-delay:.3s}
+.prod-card:nth-child(7){animation-delay:.35s}.prod-card:nth-child(8){animation-delay:.4s}.prod-card:nth-child(9){animation-delay:.45s}
 .prod-card:hover{transform:translateY(-5px);box-shadow:0 14px 40px rgba(244,114,182,.2)}
 .prod-img-wrap{position:relative;height:140px;overflow:hidden;background:#FFF0F6}
 .prod-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .35s;display:block}
@@ -83,8 +92,12 @@ nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);backdrop-
 .tag{display:inline-block;background:var(--pink-soft);color:var(--pink-dark);font-size:10px;font-weight:500;padding:4px 12px;border-radius:99px}
 .tag:hover{background:var(--pink-mid)}
 .view-more{display:flex;justify-content:center;margin-top:1.5rem}
-.btn-outline{background:transparent;border:1.5px solid var(--pink-mid);color:var(--pink-dark);padding:11px 28px;border-radius:12px;font-size:.88rem;font-weight:500;text-decoration:none;display:inline-block;transition:all .2s}
-.btn-outline:hover{background:var(--pink-soft)}
+.btn-outline{display:inline-flex;align-items:center;gap:7px;background:transparent;border:1.5px solid var(--wa);color:var(--wa-dark);padding:11px 26px;border-radius:12px;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .2s,color .2s,transform .15s}
+.btn-outline svg{width:15px;height:15px;fill:var(--wa-dark);flex-shrink:0;transition:fill .2s}
+.btn-outline:hover{background:var(--wa);color:#fff}
+.btn-outline:hover svg{fill:#fff}
+.btn-outline:active{transform:scale(.97)}
+.btn-outline:focus-visible{outline:2px solid var(--wa-dark);outline-offset:2px}
 .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .how-card{text-align:center;padding:1.5rem 1rem;background:var(--pink-light);border-radius:18px;border:1px solid var(--pink-mid);transition:transform .2s}
 .how-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(244,114,182,.15)}
@@ -97,15 +110,20 @@ nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);backdrop-
 .cta-box{max-width:var(--max);margin:0 auto;background:linear-gradient(135deg,#BE185D,#DB2777,#EC4899);background-size:200% 200%;animation:gradMove 5s ease infinite;border-radius:24px;padding:3rem 2rem;text-align:center;color:#fff}
 .cta-box h2{font-family:'Playfair Display',serif;font-size:1.7rem;margin-bottom:.6rem}
 .cta-box p{font-size:.93rem;opacity:.88;margin-bottom:1.8rem;max-width:400px;margin-left:auto;margin-right:auto}
-.btn-white{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--pink-dark);padding:14px 32px;border-radius:12px;font-size:.95rem;font-weight:700;text-decoration:none;transition:all .25s}
-.btn-white:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.15)}
+.btn-white{display:inline-flex;align-items:center;gap:9px;background:#fff;color:var(--wa-dark);padding:14px 32px;border-radius:12px;font-size:.95rem;font-weight:700;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.btn-white svg{width:18px;height:18px;fill:var(--wa-dark);flex-shrink:0}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.18)}
+.btn-white:active{transform:translateY(0) scale(.97)}
+.btn-white:focus-visible{outline:2px solid #fff;outline-offset:3px}
 footer{text-align:center;padding:1.8rem 1.5rem;border-top:1px solid var(--pink-mid);color:var(--text-2);font-size:.76rem;line-height:1.9}
 footer .brand{color:var(--pink-dark);font-weight:600}
 footer .fine{color:#9CA3AF;font-size:.7rem}
 .float-btn{position:fixed;bottom:24px;right:20px;z-index:300;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
 .float-label{background:var(--pink-dark);color:#fff;font-size:11px;font-weight:600;padding:6px 14px;border-radius:99px;white-space:nowrap;box-shadow:0 4px 16px rgba(190,24,93,.35);animation:pulse 2s ease-in-out infinite}
-.float-circle{width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(37,211,102,.45);text-decoration:none;transition:transform .2s;position:relative}
-.float-circle:hover{transform:scale(1.1)}
+.float-circle{width:60px;height:60px;background:var(--wa);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(37,211,102,.45);text-decoration:none;transition:transform .2s,background .2s;position:relative}
+.float-circle:hover{transform:scale(1.1);background:var(--wa-dark)}
+.float-circle:active{transform:scale(1.02)}
+.float-circle:focus-visible{outline:2px solid var(--wa-dark);outline-offset:3px}
 .float-circle svg{width:30px;height:30px;fill:#fff}
 .float-ripple{position:absolute;inset:0;border-radius:50%;border:3px solid #25D366;animation:ripple 2s ease-out infinite}
 .float-ripple2{animation-delay:.7s}
@@ -129,30 +147,30 @@ footer .fine{color:#9CA3AF;font-size:.7rem}
 </style>
 </head>
 <body>
-<nav><div class="nav-inner"><div class="nav-logo">Mãe de Menina 💕</div><a class="nav-btn" href="https://chat.whatsapp.com/BPb08fudayiJrUEjEFvR1S" target="_blank">Entrar grátis</a></div></nav>
+<nav><div class="nav-inner"><div class="nav-logo">Mãe de Menina 💕</div><a class="nav-btn" href="https://chat.whatsapp.com/B6WRAiV2UY76moh060AkuH?s=cl&p=a&mlu=4" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Entrar grátis</a></div></nav>
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-content">
-      <div class="hero-badge">💕 Promoções todo dia no WhatsApp</div>
+      <div class="hero-badge">💕 Promoções todo dia · Menina de 0 a 5 anos</div>
       <h1>As melhores ofertas para a sua <span>princesinha</span></h1>
-      <p>Roupinhas, brinquedos, acessórios e muito mais — selecionados todo dia com os melhores descontos da Shopee.</p>
+      <p>Roupinhas, brinquedos, acessórios e muito mais para meninas de <strong>0 a 5 anos</strong> — selecionados todo dia com os melhores descontos e frete grátis.</p>
       <div class="hero-buttons">
-        <a class="btn-primary" href="https://chat.whatsapp.com/BPb08fudayiJrUEjEFvR1S" target="_blank">💬 Entrar no grupo grátis</a>
+        <a class="btn-primary" href="https://chat.whatsapp.com/B6WRAiV2UY76moh060AkuH?s=cl&p=a&mlu=4" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Entrar no grupo grátis</a>
         <a class="btn-secondary" href="#como-funciona">Como funciona?</a>
       </div>
     </div>
     <div class="hero-visual">
-      <div class="bubble b1">💕 30% OFF!</div>
+      <div class="bubble b1">💕 56% OFF!</div>
       <div class="hero-phone">
         <div class="phone-notch"></div>
         <div class="phone-header">Mãe de Menina 💕</div>
         <div class="phone-msg pink">
-          <img class="phone-prod-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-m7clrio6z49635" alt="produto" onerror="this.style.display='none'">
-          <p><strong>Kit 6 Peças Conjunto Moletom</strong><br>por <strong>R$76,80</strong></p>
+          <img class="phone-prod-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_730501-MLB106567819823_022026-F-kit-12-pares-meias-beb-menina-antiderrapante-confortavel.webp" alt="produto" onerror="this.style.display='none'">
+          <p><strong>Kit 12 Pares Meias Bebê Menina</strong><br>por <strong>R$30,00</strong> · 56% OFF</p>
         </div>
         <div class="phone-msg white">
-          <img class="phone-prod-img" src="https://cf.shopee.com.br/file/br-11134207-820ly-mp4amfh4a2o5a7" alt="produto" onerror="this.style.display='none'">
-          <p><strong>Vestido Infantil menina Bras</strong><br>por <strong>R$19,95</strong></p>
+          <img class="phone-prod-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_900003-MLA107242511203_022026-F.webp" alt="produto" onerror="this.style.display='none'">
+          <p><strong>Kit Travesseiro Anti Sufocante</strong><br>por <strong>R$34,00</strong> · 50% OFF</p>
         </div>
       </div>
       <div class="bubble b2">✅ Nova oferta!</div>
@@ -160,83 +178,107 @@ footer .fine{color:#9CA3AF;font-size:.7rem}
   </div>
   <div class="stats">
     <div class="stat-item"><div class="stat-num">Todo dia</div><div class="stat-label">Novas promoções</div></div>
-    <div class="stat-item"><div class="stat-num">até 70%</div><div class="stat-label">De desconto</div></div>
+    <div class="stat-item"><div class="stat-num">até 56%</div><div class="stat-label">De desconto</div></div>
     <div class="stat-item"><div class="stat-num">100%</div><div class="stat-label">Gratuito</div></div>
   </div>
 </section>
 <div class="section">
   <div class="section-label">Vitrine do dia</div>
   <div class="section-title">Promoções de hoje 🎀</div>
-  <div class="section-sub">Produtos com mais de 4.3 estrelas e dezenas de vendas — só o melhor para a sua menina.</div>
-  <div class="timer-bar">⏰ Ofertas renovam em: <span class="timer-digits" id="timer">--:--:--</span><span style="color:var(--text-2);font-weight:400;font-size:11px">· Atualizado 11/06/2026</span></div>
-  <div class="products-grid"><a class="prod-card" href="https://s.shopee.com.br/8pjLHZKXU9" target="_blank" rel="nofollow">
+  <div class="section-sub">Produtos com frete grátis e ótimo desconto — selecionados todo dia para a sua menina.</div>
+  <div class="timer-bar">⏰ Ofertas renovam em: <span class="timer-digits" id="timer">--:--:--</span><span style="color:var(--text-2);font-weight:400;font-size:11px">· Atualizado <span id="update-date">--/--/----</span></span></div>
+  <div class="products-grid"><a class="prod-card" href="https://meli.la/2KDZhyi" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
-    <span class="prod-badge">30% OFF</span><span class="prod-frete">Frete grátis</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m7clrio6z49635" alt="Kit 6 Peças Conjunto Moletom Infantil Menina 1 ao 14 Feminino Inverno Manga Longa Pronta Entrega" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👗</div>'">
+    <span class="prod-badge">56% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_730501-MLB106567819823_022026-F-kit-12-pares-meias-beb-menina-antiderrapante-confortavel.webp" alt="Kit 12 Pares Meias Bebê Menina Antiderrapante Confortável" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Kit 6 Peças Conjunto Moletom Infantil Menina 1 ao 14 Fe…</div>
-    <div class="prod-stars">★★★★★ <span>4.8 · 6.7k vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$76,80</span><span class="prod-old">R$109,71</span></div>
+    <div class="prod-title">Kit 12 Pares Meias Bebê Menina Antiderrapante Confo…</div>
+    <div class="prod-price-row"><span class="prod-price">R$30,00</span><span class="prod-old">R$68,20</span></div>
   </div>
 </a>
-<a class="prod-card" href="https://s.shopee.com.br/9zvIfiKUu4" target="_blank" rel="nofollow">
+<a class="prod-card" href="https://meli.la/2d1xrD8" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
     <span class="prod-badge">50% OFF</span><span class="prod-frete">Frete grátis</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-820ly-mp4amfh4a2o5a7" alt="Vestido Infantil menina Brasil Multicolorido Alça De Amarrar Moda Verão estiloso" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👗</div>'">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_900003-MLA107242511203_022026-F.webp" alt="Kit Travesseiro Bebê Anti Sufocante com Fronha e Almofada Anatômica para Plagiocefalia" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Vestido Infantil menina Brasil Multicolorido Alça De Am…</div>
-    <div class="prod-stars">★★★★★ <span>4.9 · 3.2k vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$19,95</span><span class="prod-old">R$39,90</span></div>
+    <div class="prod-title">Kit Travesseiro Bebê Anti Sufocante com Fronha e A…</div>
+    <div class="prod-price-row"><span class="prod-price">R$34,00</span><span class="prod-old">R$68,00</span></div>
   </div>
 </a>
-<a class="prod-card" href="https://s.shopee.com.br/8ATeULVsPF" target="_blank" rel="nofollow">
+<a class="prod-card" href="https://meli.la/1g4N2Bm" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
-    <span class="prod-badge">50% OFF</span><span class="prod-frete">Frete grátis</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-7r98o-lr8wuafwea0rca" alt="Botinha Bebê Pantufa Menina e Menino Tam 14 ao 22 Forrada Em Lã Inverno Com Solado Antiderrapante" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👟</div>'">
+    <span class="prod-badge">38% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_700666-MLU77942553682_082024-F.webp" alt="Berço Infantil Portátil Cercado Luck Rosa Boreal Voyage Rosa Boreal" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>🛏️</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Botinha Bebê Pantufa Menina e Menino Tam 14 ao 22 Forra…</div>
-    <div class="prod-stars">★★★★★ <span>4.7 · 3.0k vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$39,90</span><span class="prod-old">R$79,80</span></div>
+    <div class="prod-title">Berço Infantil Portátil Cercado Luck Rosa Boreal…</div>
+    <div class="prod-price-row"><span class="prod-price">R$492,00</span><span class="prod-old">R$793,55</span></div>
   </div>
 </a>
-<a class="prod-card" href="https://s.shopee.com.br/1BJu9wG0q7" target="_blank" rel="nofollow">
+<a class="prod-card" href="https://meli.la/1iG2yRD" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
-    <span class="prod-badge">27% OFF</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-820m1-mnycve14h6o427" alt="Laços de Cabelo Infantil Faixa de Cabelo Bebê Tiara/Turbante  Cabelo Infantil Menina Kit 3 e 6 Peças" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>🎀</div>'">
+    <span class="prod-badge">29% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_997384-MLA100085439783_122025-F.webp" alt="Cueiro Flanelado Papi 100% Algodão Kit 3 Unidades Cor Estampado Encanto Cogumelo" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Laços de Cabelo Infantil Faixa de Cabelo Bebê Tiara/Tur…</div>
-    <div class="prod-stars">★★★★★ <span>4.9 · 712 vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$21,90</span><span class="prod-old">R$30,00</span></div>
+    <div class="prod-title">Cueiro Flanelado Papi 100% Algodão Kit 3 Unidades…</div>
+    <div class="prod-price-row"><span class="prod-price">R$55,00</span><span class="prod-old">R$77,46</span></div>
   </div>
 </a>
-<a class="prod-card" href="https://s.shopee.com.br/8fPv5GhW4k" target="_blank" rel="nofollow">
+<a class="prod-card" href="https://meli.la/2kWjXwA" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
-    <span class="prod-badge">50% OFF</span><span class="prod-frete">Frete grátis</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjtzdbhwe4uae0" alt="Kit Chocalho 8 Peças Mordedor Bebê Brinquedo Sensorial Macio Presente Para Menina e Menino Móbile para Berço" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>🧸</div>'">
+    <span class="prod-badge">29% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_932561-MLA94382904273_102025-F.webp" alt="Saco De Dormir Super Soft Rosa Buba" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Kit Chocalho 8 Peças Mordedor Bebê Brinquedo Sensorial …</div>
-    <div class="prod-stars">★★★★★ <span>4.9 · 1.8k vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$27,90</span><span class="prod-old">R$55,80</span></div>
+    <div class="prod-title">Saco De Dormir Super Soft Rosa Buba</div>
+    <div class="prod-price-row"><span class="prod-price">R$65,00</span><span class="prod-old">R$91,55</span></div>
   </div>
 </a>
-<a class="prod-card" href="https://s.shopee.com.br/3g1F8Wb4vG" target="_blank" rel="nofollow">
+<a class="prod-card" href="https://meli.la/1Gpboem" target="_blank" rel="nofollow">
   <div class="prod-img-wrap">
-    <span class="prod-badge">46% OFF</span><span class="prod-frete">Frete grátis</span>
-    <img src="https://cf.shopee.com.br/file/br-11134207-81ztp-mko8utap0t1d2b" alt="Escolha Seu Macacão Bebe Menina Roupa Inverno Soft Peluciado Com Zíper Quentinho Confortável Panda, Ursinho, Florido L09" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>🍼</div>'">
+    <span class="prod-badge">23% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_932981-MLB106203861486_022026-F-kit-7-pares-meia-de-beb-pimpolho-rn-menino-menina-tam-00-15.webp" alt="Kit 7 Pares Meia De Bebê Pimpolho Rn Menino Menina Tam 00-15" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
   </div>
   <div class="prod-body">
-    <div class="prod-title">Escolha Seu Macacão Bebe Menina Roupa Inverno Soft Pelu…</div>
-    <div class="prod-stars">★★★★★ <span>4.9 · 4.6k vendas</span></div>
-    <div class="prod-price-row"><span class="prod-price">R$37,90</span><span class="prod-old">R$70,19</span></div>
+    <div class="prod-title">Kit 7 Pares Meia De Bebê Pimpolho Rn Tam 00-15</div>
+    <div class="prod-price-row"><span class="prod-price">R$45,00</span><span class="prod-old">R$58,44</span></div>
+  </div>
+</a>
+<a class="prod-card" href="https://meli.la/2mWgkqa" target="_blank" rel="nofollow">
+  <div class="prod-img-wrap">
+    <span class="prod-badge">19% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_859242-MLB89160802586_082025-F-toalha-de-banho-bebe-com-capuz-3-camadas-de-fralda.webp" alt="Toalha De Banho Bebe Com Capuz 3 Camadas De Fralda" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
+  </div>
+  <div class="prod-body">
+    <div class="prod-title">Toalha De Banho Bebê Com Capuz 3 Camadas De Fralda</div>
+    <div class="prod-price-row"><span class="prod-price">R$48,00</span><span class="prod-old">R$59,26</span></div>
+  </div>
+</a>
+<a class="prod-card" href="https://meli.la/11qFQAy" target="_blank" rel="nofollow">
+  <div class="prod-img-wrap">
+    <span class="prod-badge">17% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_884199-MLA102053909419_122025-F.webp" alt="Manta Baby Cueiro Dupla Face 90x90cm 100% Algodão Cor Rosa Petit Ballet" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
+  </div>
+  <div class="prod-body">
+    <div class="prod-title">Manta Baby Cueiro Dupla Face 90x90cm Petit Ballet</div>
+    <div class="prod-price-row"><span class="prod-price">R$27,00</span><span class="prod-old">R$32,53</span></div>
+  </div>
+</a>
+<a class="prod-card" href="https://meli.la/23C2BBU" target="_blank" rel="nofollow">
+  <div class="prod-img-wrap">
+    <span class="prod-badge">13% OFF</span><span class="prod-frete">Frete grátis</span>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_882788-MLB108247895866_032026-F-toalha-beb-banho-soft-capuz-3-camadas-fralda-algodo.webp" alt="Toalha Bebê Banho Soft Capuz 3 Camadas Fralda Algodão" onerror="this.outerHTML='<div class=\'prod-img-placeholder\'>👶</div>'">
+  </div>
+  <div class="prod-body">
+    <div class="prod-title">Toalha Bebê Banho Soft Capuz 3 Camadas Fralda Algo…</div>
+    <div class="prod-price-row"><span class="prod-price">R$38,00</span><span class="prod-old">R$43,68</span></div>
   </div>
 </a></div>
-  <div class="tags"><span class="tag">Roupas</span><span class="tag">Calçados</span><span class="tag">Acessórios</span><span class="tag">Brinquedos</span><span class="tag">Enxoval</span><span class="tag">Higiene</span></div>
-  <div class="view-more"><a class="btn-outline" href="https://chat.whatsapp.com/BPb08fudayiJrUEjEFvR1S" target="_blank">Ver mais ofertas no grupo →</a></div>
+  <div class="tags"><span class="tag">Enxoval</span><span class="tag">Berço</span><span class="tag">Sono</span><span class="tag">Higiene</span><span class="tag">Vestuário</span></div>
+  <div class="view-more"><a class="btn-outline" href="https://chat.whatsapp.com/B6WRAiV2UY76moh060AkuH?s=cl&p=a&mlu=4" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Ver mais ofertas no grupo</a></div>
 </div>
 <div class="divider"></div>
 <div class="section" id="como-funciona">
@@ -245,14 +287,14 @@ footer .fine{color:#9CA3AF;font-size:.7rem}
   <div class="how-grid">
     <div class="how-card"><span class="how-icon">💬</span><div class="how-step">Passo 1</div><div class="how-title">Entre no grupo</div><div class="how-desc">Clique no link e entre gratuitamente no grupo do WhatsApp</div></div>
     <div class="how-card"><span class="how-icon">🛍️</span><div class="how-step">Passo 2</div><div class="how-title">Receba ofertas</div><div class="how-desc">Todo dia publicamos as melhores promoções selecionadas pra você</div></div>
-    <div class="how-card"><span class="how-icon">💰</span><div class="how-step">Passo 3</div><div class="how-title">Economize!</div><div class="how-desc">Clique, compre e aproveite descontos de até 70% off direto na Shopee</div></div>
+    <div class="how-card"><span class="how-icon">💰</span><div class="how-step">Passo 3</div><div class="how-title">Economize!</div><div class="how-desc">Clique, compre e aproveite descontos de até 56% off com frete grátis</div></div>
   </div>
 </div>
 <div class="cta-section">
   <div class="cta-box">
     <h2>Sua menina merece o melhor 💕</h2>
     <p>Entre grátis agora e receba promoções todos os dias direto no seu WhatsApp.</p>
-    <a class="btn-white" href="https://chat.whatsapp.com/BPb08fudayiJrUEjEFvR1S" target="_blank">💬 Entrar no grupo grátis →</a>
+    <a class="btn-white" href="https://chat.whatsapp.com/B6WRAiV2UY76moh060AkuH?s=cl&p=a&mlu=4" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Entrar no grupo grátis</a>
   </div>
 </div>
 <footer>
@@ -261,7 +303,7 @@ footer .fine{color:#9CA3AF;font-size:.7rem}
 </footer>
 <div class="float-btn">
   <div class="float-label">👆 Entrar no grupo grátis</div>
-  <a class="float-circle" href="https://chat.whatsapp.com/BPb08fudayiJrUEjEFvR1S" target="_blank" aria-label="Entrar no grupo WhatsApp">
+  <a class="float-circle" href="https://chat.whatsapp.com/B6WRAiV2UY76moh060AkuH?s=cl&p=a&mlu=4" target="_blank" aria-label="Entrar no grupo WhatsApp">
     <div class="float-ripple"></div><div class="float-ripple float-ripple2"></div>
     <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
@@ -274,6 +316,7 @@ footer .fine{color:#9CA3AF;font-size:.7rem}
 <script>
 function updateTimer(){var now=new Date(),end=new Date();end.setHours(23,59,59,999);var d=end-now;document.getElementById('timer').textContent=String(Math.floor(d/3600000)).padStart(2,'0')+':'+String(Math.floor((d%3600000)/60000)).padStart(2,'0')+':'+String(Math.floor((d%60000)/1000)).padStart(2,'0')}
 updateTimer();setInterval(updateTimer,1000);
+(function(){var hoje=new Date();var dd=String(hoje.getDate()).padStart(2,'0');var mm=String(hoje.getMonth()+1).padStart(2,'0');var yyyy=hoje.getFullYear();document.getElementById('update-date').textContent=dd+'/'+mm+'/'+yyyy})();
 var names=['Ana Lima','Carla M.','Juliana P.','Fernanda R.','Patrícia S.','Tatiane O.','Renata B.','Luciana V.','Mariana C.','Débora F.','Vanessa T.','Sandra G.'];
 var msgs=['entrou no grupo agora','acabou de se juntar','entrou há 1 minuto','acabou de entrar no grupo'];
 var emojis=['👩','👩‍🦱','👩‍🦰','🧕','👱‍♀️','👩‍🦳'];
